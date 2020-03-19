@@ -1,0 +1,26 @@
+<form oninput="score.value=parseInt(question1.value || 0)+parseInt(question2.value || 0)+parseInt(question3.value || 0)">
+  <div>
+    <p>How is my tailor?</p>
+    <input id="question1-answer1" name="question1" type="radio" value="1">
+    <label for="question1-answer1">rich</label>
+    <input id="question1-answer2" name="question1" type="radio" value="0">
+    <label for="question1-answer2">irish</label>
+  </div>
+  <div>
+    <p>Where is Brian?</p>
+    <input id="question2-answer1" name="question2" type="radio" value="0">
+    <label for="question2-answer1">in the living room</label>
+    <input id="question2-answer2" name="question2" type="radio" value="1">
+    <label for="question2-answer2">in the kitchen</label>
+  </div>
+  <div>
+    <!--todo: make this question working-->
+     <p>Doctor Who?</p>
+    <input id="question3-answer1" name="question3" type="radio" value="1">
+    <label for="question3-answer1">Dr. Livingstone</label>
+    <input id="question3-answer2" name="question3" type="radio" value="0">
+    <label for="question1-answer2">just the Doctor</label>
+  </div>
+
+  <p>Your score is <output name="score">0</output></p>
+</form>
