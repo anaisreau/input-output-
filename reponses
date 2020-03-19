@@ -1,0 +1,35 @@
+Input / Output = quizz
+
+1 – Que fait le code : 
+
+le code sert a créer un quizz qui va attribuer des points a l’utilisateur en fonction de ses réponses bonnes ou mauvaises 
+
+2- Quel est le but : 
+
+le but est de créer un quizz et de mesurer le niveau de connaissance de l’utilisateur qui est en train de répondre au quizz. Ainsi il peut connaître sa note 
+on crée un form qui va contenir l'ensemble du quizz on lui attribue une fonction oninput qui est un attribut evenement qui executer un script lorsque la valeur du bouton radio change 
+
+avec score.value on verifie grace a la fonction parseInt les values des differentes questions et on la converti en 1 ou 0 
+et on les ajoute entre elles. On a relié le oninput au output grace au nommage "score" c'est dans le output que le resultat calculé dans le oninput sera affiché 
+
+on créer ensuite toutes les questions 
+avec a chaque fois un input c'est a dire le bouton a cliquer qui correspond a la reponse donnee 
+
+on attribue une valeur 1 ou 0 grâce a un value dans input 
+
+3- Comment ça marche : 
+
+on crée un form qui va contenir l'ensemble du quizz on lui attribue une fonction oninput qui est un attribut événement qui exécuter un script lorsque la valeur du bouton radio change 
+
+avec score.value on vérifie grâce a la fonction parseInt les values des différentes questions et on la converti en 1 ou 0 
+et on les ajoute entre elles. On a relié le oninput au output grâce au nommage "score" c'est dans le output que le résultat calculé dans le oninput sera affiché 
+
+on créer ensuite toutes les questions 
+avec a chaque fois un input c'est a dire le bouton a cliquer qui correspond a la réponse donnée 
+
+on attribue une valeur 1 ou 0 grâce a un value dans input 
+
+4 – Comment l’utiliser dans un projet : 
+
+dans le projet on pourrait faire par exemple une page quizz sur les films ou sur les connaissances sur le réalisateur tarantino pour mesurer le niveau de connaissance des utilisateurs 
+en fonction on pourrait lui attribuer des badges dans le même principe que la plateforme odyssée utilisée par la Wild code school.
